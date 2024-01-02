@@ -1,9 +1,5 @@
 name: "Branch build"
-on:
-    push:
-      branches:
-        - "*"
-        - "!main"
+
 
 jobs:
     branch-build:

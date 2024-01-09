@@ -31,7 +31,8 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 public class Assignment7 extends AssignmentEndpoint {
 
-  public static final String ADMIN_PASSWORD_LINK = "375afe1104f4a487a73823c50a9292a2";
+  //hardcoded password, to be managed in a better way, like HSM.  https://us.ast.checkmarx.net/results/fdd15c1e-819a-4b11-b164-908136658e23/715a1365-1fd6-47fd-8726-ddd7bd4feeef/sast?result-id=NusIXIKSUwa6O%2F04ICA6cg3VNlQ%3D&redirect=true
+  public static final String ADMIN_PASSWORD_LINK = "";
 
   private static final String TEMPLATE =
       "Hi, you requested a password reset link, please use this <a target='_blank'"
